@@ -1,0 +1,47 @@
+{
+  "name": "@krishthesmart/contract-kit",
+  "version": "0.1.0",
+  "description": "Schema-first reliability helpers for structured AI outputs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "schema",
+    "zod",
+    "validation",
+    "structured-output",
+    "reliability"
+  ],
+  "peerDependencies": {
+    "zod": "^3.23.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "zod": "^3.25.76"
+  },
+  "dependencies": {
+    "@contract-kit/core": "file:../../outputs/contract-kit-core-0.1.0.tgz"
+  }
+}
