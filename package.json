@@ -1,10 +1,10 @@
 {
   "name": "@krishthesmart/contract-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Schema-first reliability helpers for structured AI outputs.",
   "type": "module",
   "license": "MIT",
-  "author": "",
+  "author": "krishthesmart <krish.arulmeiyappan@gmail.com>",
   "sideEffects": false,
   "exports": {
     ".": {
@@ -41,7 +41,7 @@
     "vitest": "^2.1.8",
     "zod": "^3.25.76"
   },
-  "dependencies": {
-    "@contract-kit/core": "file:../../outputs/contract-kit-core-0.1.0.tgz"
-  }
+  "contributors": [
+    "krishthesmart <krish.arulmeiyappan@gmail.com>"
+  ]
 }
