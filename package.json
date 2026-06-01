@@ -6,6 +6,10 @@
   "license": "MIT",
   "author": "krishthesmart <krish.arulmeiyappan@gmail.com>",
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishthesmart/contract-kit.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -20,11 +24,9 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "prepack": "npm run build"
+    "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "keywords": [
-    "ai",
     "llm",
     "schema",
     "zod",
@@ -44,4 +46,4 @@
   "contributors": [
     "krishthesmart <krish.arulmeiyappan@gmail.com>"
   ]
-}
+} 
